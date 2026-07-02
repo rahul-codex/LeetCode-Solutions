@@ -1,0 +1,19 @@
+class Solution {
+public:
+    int search(vector<int>& nums, int t) {
+        int l = 0;
+        int r = nums.size() - 1;
+        while (l <= r) {
+            int med = l + (r - l) / 2;
+            if (nums[med] == t) return med;
+            if (nums[l] <= nums[med]) {
+                if (nums[l] <= t && t <= nums[med]) r = med - 1;
+                 else l = med + 1;
+            } else {
+                if (nums[med] <= t && t <= nums[r]) l = med + 1;
+                 else r = med - 1;
+            }
+        }
+        return -1;
+    }
+};
