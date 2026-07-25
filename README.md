@@ -11,7 +11,7 @@ This repository contains my solutions to LeetCode problems solved using **C++**.
 Hi, I'm **Rahul Sharma**.
 
 * 🎓 BCA Student
-* 💻 C | C++ | HTML | CSS | JavaScript
+* 💻 C | C++ | HTML | CSS | Java
 * 🚀 Solving Data Structures & Algorithms daily
 * 🌱 Learning Full Stack Web Development
 * 🎯 Aspiring Software Engineer
